@@ -7,10 +7,13 @@
   }
   
   body {
+    align-items: center;
     background: linear-gradient(
       90deg,
-      rgba(48, 16, 255, 1) 0%,
-      rgba(100, 115, 255, 1) 100%
+      rgb(41, 162, 243) 0%,
+      rgb(25, 247, 217) 100%
+      
+     
     );
   }
   .todo-app {
@@ -30,6 +33,7 @@
     margin: 32px 0;
     color: #fff;
     font-size: 24px;
+    text-align: center;
   }
   
   .complete {
@@ -42,6 +46,8 @@
   }
   
   .todo-input {
+    
+    margin-left: 150px;
     padding: 14px 32px 14px 16px;
     border-radius: 4px 0 0 4px;
     border: 2px solid #5d0cff;
@@ -49,6 +55,7 @@
     width: 320px;
     background: transparent;
     color: #fff;
+    font-size: 14px;
   }
   
   .todo-input::placeholder {
@@ -71,6 +78,7 @@
   }
   
   .todo-input.edit {
+    
     border: 2px solid #149fff;
   }
   
@@ -84,6 +92,7 @@
   }
   
   .todo-container {
+    align-items: center;
     display: flex;
     flex-direction: row;
     position: relative;
@@ -103,7 +112,7 @@
   
     padding: 16px;
     border-radius: 5px;
-    width: 90%;
+    width: 70%;
   }
   
   .todo-row:nth-child(4n + 1) {
